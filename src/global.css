@@ -4,4 +4,7 @@
   --primary-text: var(--color-lime-950);
   --secondary-text: var(--color-olive-400);
   --secondary-bg: var(--color-olive-100);
+
+  --font-sans: 'Clash Grotesk', sans-serif;
+  --font-mono: 'Geist Mono', monospace;
 }
