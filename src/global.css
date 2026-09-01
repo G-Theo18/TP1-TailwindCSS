@@ -1,10 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --primary-text: var(--color-lime-950);
-  --secondary-text: var(--color-olive-400);
-  --secondary-bg: var(--color-olive-100);
+  --color-primary: #8df27e;
+  --color-secondary: #f2e77e;
+  --color-tertiary: #f54033;
 
-  --font-sans: 'Clash Grotesk', sans-serif;
-  --font-mono: 'Geist Mono', monospace;
+  --color-dark: #000000;
+  --color-white: #FFFFFF;
+
+  --font-sans: "Clash Grotesk", sans-serif;
+  --font-mono: "Geist Mono", monospace;
 }
