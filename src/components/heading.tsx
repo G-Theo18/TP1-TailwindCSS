@@ -7,6 +7,7 @@ const heading = tv({
   variants: {
     text: {
       primary: "text-green",
+      dark: "text-dark"
     },
 
     size: {

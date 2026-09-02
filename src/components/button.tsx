@@ -8,7 +8,8 @@ const button = tv({
     color: {
       primary: "bg-primary text-white",
       secondary: "bg-secondary text-white",
-      tertiary: "bg-tertiary text-white"
+      tertiary: "bg-tertiary text-white",
+      whitegreen: "bg-white text-green",
     },
 
     size: {
