@@ -3,7 +3,7 @@ import Heading from "../heading";
 
 export default function Hero() {
   return (
-    <div className="w-full px-[12rem]">
+    <div className="w-full px-[14rem]">
       <div
         className="relative aspect-hero w-full overflow-hidden rounded-[2rem] bg-cover bg-center"
         style={{ backgroundImage: "url('/img/cover.jpeg')" }}

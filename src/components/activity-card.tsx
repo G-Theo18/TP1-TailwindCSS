@@ -18,11 +18,11 @@ export default function ActivityCard({ activity }: ActivityProps) {
       <div className="relative flex h-full flex-col justify-between p-6">
         
         <div className="flex justify-between">
-          <Chip className="rounded-full bg-white/50 px-4 py-2 font-semibold text-white">
+          <Chip className="rounded-full to-grey px-4 py-2 font-semibold text-white">
             {activity.duration}
           </Chip>
 
-          <Chip className="rounded-full bg-white/50 px-4 py-2 font-semibold text-white">
+          <Chip className="rounded-full to-grey px-4 py-2 font-semibold text-white">
             ★ {activity.rating} ({activity.reviews})
           </Chip>
         </div>
@@ -38,7 +38,7 @@ export default function ActivityCard({ activity }: ActivityProps) {
 
           <div className="flex flex-wrap gap-3">
             {activity.tags.map((tag) => (
-              <Chip key={tag} className="rounded-full bg-white/50 px-4 py-2 font-semibold text-white">
+              <Chip key={tag} className="rounded-full to-grey px-4 py-2 font-semibold text-white">
                 #{tag}
               </Chip>
             ))}

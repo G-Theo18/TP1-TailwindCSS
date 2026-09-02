@@ -7,7 +7,8 @@ const heading = tv({
   variants: {
     text: {
       green: "text-green",
-      dark: "text-dark"
+      dark: "text-dark",
+      grey: "text-grey"
     },
 
     size: {
@@ -26,7 +27,7 @@ const heading = tv({
 
 type HeadingProps = HTMLAttributes<HTMLHeadingElement> &
   VariantProps<typeof heading> & {
-    as: "h1" | "h2" | "h3";
+    as: "h1" | "h2" | "h3" | "h4";
   };
 
 export default function Heading(props: HeadingProps) {
