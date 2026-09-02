@@ -1,17 +1,10 @@
-import Button from "./components/button";
-import Heading from "./components/heading";
-import Benefit from "./components/benefits";
-import Chips from "./components/chips";
-import ActivityCard from "./components/activity-card";
-
-import { BENEFITS } from "./data/benefits.data";
-import { ACTIVITIES } from "./data/activities.data";
+import Menu from "./components/sections/menu";
 
 export function App() {
   return (
     <div className="font-sans mx-auto">
       <header>
-        {/* <Menu /> */}
+        <Menu />
         {/* <Hero /> */}
       </header>
 
