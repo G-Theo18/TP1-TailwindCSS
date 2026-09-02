@@ -1,11 +1,12 @@
 import Menu from "./components/sections/menu";
+import Hero from "./components/sections/hero";
 
 export function App() {
   return (
     <div className="font-sans mx-auto">
       <header>
         <Menu />
-        {/* <Hero /> */}
+        <Hero />
       </header>
 
       <main className="container mx-auto px-6">

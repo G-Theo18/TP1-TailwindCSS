@@ -13,6 +13,7 @@
   --font-mono: "Geist Mono", monospace;
 
   --aspect-card: 9 / 14;
+  --aspect-hero: 16 / 9;
 }
 
 @utility my-section {
