@@ -1,6 +1,7 @@
 import Menu from "./components/sections/menu";
 import Hero from "./components/sections/hero";
 import Benefits from "./components/sections/benefits";
+import Tours from "./components/sections/tours";
 
 export function App() {
   return (
@@ -12,7 +13,7 @@ export function App() {
 
       <main className="container mx-auto px-6">
         <Benefits />
-        {/* <Tours /> */}
+        <Tours />
         {/* <Hotels /> */}
         {/* <Blog /> */}
       </main>

@@ -10,6 +10,7 @@ const button = tv({
       secondary: "bg-secondary text-white",
       tertiary: "bg-tertiary text-white",
       whitegreen: "bg-white text-green",
+      green: "bg-green text-white",
     },
 
     size: {
@@ -18,7 +19,7 @@ const button = tv({
     },
 
     shape: {
-      pill: "rounded-full",
+      pill: "rounded-full!",
       rounded: "",
     },
   },
