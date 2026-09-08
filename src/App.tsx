@@ -2,6 +2,7 @@ import Menu from "./components/sections/menu";
 import Hero from "./components/sections/hero";
 import Benefits from "./components/sections/benefits";
 import Tours from "./components/sections/tours";
+import Footer from "./components/sections/footer";
 
 export function App() {
   return (
@@ -18,7 +19,7 @@ export function App() {
         {/* <Blog /> */}
       </main>
 
-      {/* <Footer /> */}
+        <Footer />
     </div>
   );
 }

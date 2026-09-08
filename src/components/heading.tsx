@@ -8,7 +8,8 @@ const heading = tv({
     text: {
       green: "text-green",
       dark: "text-dark",
-      grey: "text-grey"
+      grey: "text-grey",
+      white: "text-white"
     },
 
     size: {
