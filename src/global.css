@@ -18,6 +18,11 @@
 }
 
 @utility my-section {
-  margin-top: calc(var(--spacing) * 42);
-  margin-bottom: calc(var(--spacing) * 42);
+  margin-top: calc(var(--spacing) * 20);
+  margin-bottom: calc(var(--spacing) * 20);
+
+  @media (min-width: 768px) {
+    margin-top: calc(var(--spacing) * 42);
+    margin-bottom: calc(var(--spacing) * 42);
+  }
 }

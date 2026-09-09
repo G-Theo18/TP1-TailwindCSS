@@ -6,7 +6,7 @@ import Footer from "./components/sections/footer";
 
 export function App() {
   return (
-    <div className="font-sans mx-auto">
+    <div className="font-sans mx-auto overflow-x-hidden">
       <header>
         <Menu />
         <Hero />

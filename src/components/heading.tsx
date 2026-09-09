@@ -9,20 +9,20 @@ const heading = tv({
       green: "text-green",
       dark: "text-dark",
       grey: "text-grey",
-      white: "text-white"
+      white: "text-white",
     },
 
     size: {
       display: "text-8xl font-semibold",
-      lg: "text-5xl font-semibold",
-      md: "text-3xl font-semibold",
-      sm: "text-xl font-semibold",
+      lg: "text-xs md:text-5xl font-semibold",
+      md: "text-sm md:text-3xl font-semibold",
+      sm: "text-base md:text-xl font-semibold",
     },
   },
 
   defaultVariants: {
     size: "sm",
-    green: "primary",
+    text: "green",
   },
 });
 
