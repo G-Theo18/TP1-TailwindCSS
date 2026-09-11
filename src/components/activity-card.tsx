@@ -9,7 +9,7 @@ type ActivityProps = {
 
 export default function ActivityCard({ activity }: ActivityProps) {
   return (
-    <div className="relative aspect-card overflow-hidden rounded-3xl bg-cover bg-center min-w-96"
+    <div className="relative aspect-card overflow-hidden rounded-3xl bg-cover bg-center min-w-[18rem] lg:min-w-[28rem] lg:max-w-none"
       style={{ backgroundImage: `url(${activity.cover})` }}
     >
 

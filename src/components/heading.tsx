@@ -17,9 +17,9 @@ const heading = tv({
     },
 
     size: {
-      display: "text-8xl",
-      lg: "text-xs md:text-5xl",
-      md: "text-sm md:text-3xl",
+      display: "text-5xl md:text-8xl",
+      lg: "text-2xl md:text-5xl",
+      md: "text-xl md:text-3xl",
       sm: "text-base md:text-xl",
     },
   },

@@ -8,7 +8,7 @@ type HotelProps = {
 
 export default function HotelCard({ hotel }: HotelProps) {
     return (
-        <div className="relative aspect-hotel overflow-hidden rounded-3xl bg-cover bg-center min-w-[28rem]"
+        <div className="relative aspect-hotel overflow-hidden rounded-3xl bg-cover bg-center min-w-[18rem] lg:min-w-[28rem] lg:max-w-none"
             style={{ backgroundImage: `url(${hotel.cover})` }}
         >
 

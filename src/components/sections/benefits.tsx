@@ -6,7 +6,7 @@ export default function Benefits() {
   return (
     <section className="w-full px-8 py-16">
       <div className="mx-auto max-w-6xl text-center">
-        <Heading text="green" as="h2" size="lg" className="mb-[3rem] font-semibold">
+        <Heading text="green" as="h2" size="sm" className="font-semibold">
           Un service d'excellence
         </Heading>
 

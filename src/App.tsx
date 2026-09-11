@@ -4,6 +4,7 @@ import Benefits from "./components/sections/benefits";
 import Tours from "./components/sections/tours";
 import Footer from "./components/sections/footer";
 import Hotels from "./components/sections/hotel";
+import Blog from "./components/sections/blog";
 
 export function App() {
   return (
@@ -17,7 +18,7 @@ export function App() {
         <Benefits />
         <Tours />
         <Hotels />
-        {/* <Blog /> */}
+        <Blog />
       </main>
 
         <Footer />
