@@ -8,12 +8,13 @@
   --color-dark: #000000;
   --color-white: #FFFFFF;
   --color-green: #32754C;
-  --color-grey: #a8a088;
+  --color-grey: #c4c3c0;
 
   --font-sans: "Clash Grotesk", sans-serif;
   --font-mono: "Geist Mono", monospace;
 
   --aspect-card: 9 / 14;
+  --aspect-hotel: 3 / 4;
   --aspect-hero: 16 / 9;
 }
 

@@ -7,8 +7,10 @@ type ChipsProps = {
 
 export default function Chips(props: ChipsProps) {
   return (
-    <span className={props.className}>
-      {props.children}
-    </span>
+    <div className="bg-grey/40 rounded-xl">
+      <span className={props.className}>
+        {props.children}
+      </span>
+    </div>
   );
 }

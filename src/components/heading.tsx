@@ -2,9 +2,13 @@ import type { HTMLAttributes } from "react";
 import { tv, type VariantProps } from "tailwind-variants";
 
 const heading = tv({
-  base: "font-semibold tracking-wide",
+  base: "tracking-wide",
 
   variants: {
+    font: {
+      Groatesque: "font-sans"
+    },
+
     text: {
       green: "text-green",
       dark: "text-dark",
@@ -13,10 +17,10 @@ const heading = tv({
     },
 
     size: {
-      display: "text-8xl font-semibold",
-      lg: "text-xs md:text-5xl font-semibold",
-      md: "text-sm md:text-3xl font-semibold",
-      sm: "text-base md:text-xl font-semibold",
+      display: "text-8xl",
+      lg: "text-xs md:text-5xl",
+      md: "text-sm md:text-3xl",
+      sm: "text-base md:text-xl",
     },
   },
 
@@ -34,12 +38,13 @@ type HeadingProps = HTMLAttributes<HTMLHeadingElement> &
 export default function Heading(props: HeadingProps) {
   const Comp = props.as;
 
-  const { text, size, className, children, ...rest } = props;
+  const { font, text, size, className, children, ...rest } = props;
 
   return (
     <Comp
       {...rest}
       className={heading({
+        font,
         text,
         size,
         className,

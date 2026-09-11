@@ -11,6 +11,8 @@ const button = tv({
       tertiary: "bg-tertiary text-white",
       whitegreen: "bg-white text-green",
       green: "bg-green text-white",
+      grey: "bg-grey/40 text-green",
+      greyWhite: "bg-grey/40 text-white"
     },
 
     size: {

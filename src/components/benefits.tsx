@@ -18,7 +18,7 @@ export default function Benefit(props: BenefitProps) {
       </div>
 
       <div className="flex flex-col gap-4">
-        <Heading text="green" as="h2">
+        <Heading text="green" as="h2" className="font-semibold">
           {benefit.label}
         </Heading>
 

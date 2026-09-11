@@ -6,7 +6,7 @@ export default function Benefits() {
   return (
     <section className="w-full px-8 py-16">
       <div className="mx-auto max-w-6xl text-center">
-        <Heading text="green" as="h2" size="lg" className="mb-[3rem]">
+        <Heading text="green" as="h2" size="lg" className="mb-[3rem] font-semibold">
           Un service d'excellence
         </Heading>
 
@@ -14,10 +14,10 @@ export default function Benefits() {
           Accédez à un large gamme de services compris dans votre séjour
         </p>
 
-        <div className="mt-12 grid grid-cols-4 gap-10">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {BENEFITS.map((benefit) => (
             <Benefit
-              key={benefit.label}
+              key={benefit.label} 
               benefit={benefit}
             />
           ))}

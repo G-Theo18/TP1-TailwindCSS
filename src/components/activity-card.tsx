@@ -9,14 +9,13 @@ type ActivityProps = {
 
 export default function ActivityCard({ activity }: ActivityProps) {
   return (
-    <div className="relative aspect-card overflow-hidden rounded-3xl bg-cover bg-center min-w-96" 
-        style={{ backgroundImage: `url(${activity.cover})` }}
+    <div className="relative aspect-card overflow-hidden rounded-3xl bg-cover bg-center min-w-96"
+      style={{ backgroundImage: `url(${activity.cover})` }}
     >
 
       <div className="absolute inset-0 bg-black/30" />
-
       <div className="relative flex h-full flex-col justify-between p-6">
-        
+
         <div className="flex justify-between">
           <Chip className="rounded-full to-grey px-4 py-2 font-semibold text-white">
             {activity.duration}
@@ -28,11 +27,11 @@ export default function ActivityCard({ activity }: ActivityProps) {
         </div>
 
         <div>
-          <Heading text="dark" as="h1" size="sm" className="text-white">
+          <Heading font="Groatesque" text="dark" as="h1" size="sm" className="text-white">
             {activity.type === "experience" ? "Expérience" : "Randonnée"}
           </Heading>
 
-          <Heading text="dark" as="h1" size="md" className="text-white">
+          <Heading text="dark" as="h1" size="md" className="text-white font-semibold">
             {activity.title}
           </Heading>
 
